@@ -1,0 +1,95 @@
+.goods-popup {
+    position        : relative;
+    display         : flex;
+    max-width       : 940px;
+    width           : 100%;
+    margin          : auto;
+    background-color: #FFF;
+    padding         : 50px;
+
+    >.img-container {
+        display    : flex;
+        align-items: center;
+        max-width  : 540px;
+        max-height : 620px;
+
+        >img {
+            width : 380px;
+            height: 380px;
+        }
+    }
+
+    >.content {
+        display       : flex;
+        flex-direction: column;
+        padding-left  : 20px;
+
+        >h6 {
+            font-weight: 700;
+            font-size  : 24px;
+            line-height: 28px;
+            color      : #101010;
+        }
+
+        >.price {
+            margin-top : 10px;
+            font-weight: 500;
+            font-size  : 20px;
+            line-height: 24px;
+            color      : #101010;
+        }
+
+        >.sku {
+            font-weight  : 400;
+            font-size    : 16px;
+            line-height  : 24px;
+            color        : #979797;
+            margin-top   : 4px;
+            margin-bottom: 30px;
+        }
+
+        >.input-container {
+            display       : flex;
+            flex-direction: column;
+            margin-top    : 20px;
+
+            >label {
+                font-weight  : 700;
+                font-size    : 14px;
+                line-height  : 16px;
+                color        : #101010;
+                margin-bottom: 6px;
+            }
+
+            >input {
+                background: #FFFFFF;
+                border    : 1px solid #C8C8C8;
+                box-sizing: border-box;
+                padding   : 13px 20px;
+            }
+        }
+
+        >.add {
+            font-weight: 600;
+            font-size  : 16px;
+            line-height: 19px;
+            color      : #101010;
+            padding    : 13px;
+            background : #F9D833;
+            width      : 100%;
+            text-align : center;
+            display    : block;
+            margin-top : 50px;
+        }
+
+        >.more {
+            margin-top          : 10px;
+            font-weight         : 400;
+            font-size           : 14px;
+            line-height         : 16px;
+            text-decoration-line: underline;
+            color               : #101010;
+        }
+    }
+
+}

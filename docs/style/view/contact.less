@@ -1,0 +1,150 @@
+.contact-view {
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
+    margin         : auto;
+    background     : #FFF;
+
+    >section {
+        margin    : auto;
+        margin-top: 70px;
+        max-width : 1246px;
+        width     : 100%;
+
+        >h2 {
+            font-weight: 700;
+            font-size  : 24px;
+            line-height: 28px;
+            color      : #101010;
+        }
+
+        >p {
+            font-weight: 400;
+            font-size  : 16px;
+            line-height: 19px;
+            color      : #101010;
+        }
+
+        >form {
+            max-width: 1246px;
+            width    : 100%;
+
+            >.info-container {
+                display: flex;
+                gap    : 40px;
+
+                >.input-container {
+                    width         : 50%;
+                    display       : flex;
+                    flex-direction: column;
+                    margin-top    : 30px;
+
+                    >label {
+                        font-weight: 700;
+                        font-size  : 14px;
+                        line-height: 24px;
+                        color      : #101010;
+                    }
+
+                    >input {
+                        border-bottom: 3px solid #101010;
+                        color        : #101010;
+                        padding      : 14px 20px;
+                    }
+                }
+            }
+
+            >.input-container {
+                display       : flex;
+                flex-direction: column;
+                margin-top    : 30px;
+
+                >label {
+                    font-weight: 700;
+                    font-size  : 14px;
+                    line-height: 24px;
+                    color      : #101010;
+                }
+
+                >input {
+                    border-bottom: 3px solid #101010;
+                    color        : #101010;
+                    padding      : 14px 20px;
+                }
+            }
+
+            >.button-container {
+                display        : flex;
+                justify-content: center;
+
+                >button {
+                    font-family: 'Roboto';
+                    font-style : normal;
+                    font-weight: 600;
+                    font-size  : 16px;
+                    line-height: 19px;
+                    color      : #FFF;
+                    background : #101010;
+                    width      : 100%;
+                    max-width  : 500px;
+                    padding    : 17px 0px;
+                    margin-top : 30px;
+                }
+            }
+        }
+    }
+
+    >.mailing-form {
+        display        : flex;
+        justify-content: center;
+        align-items    : flex-end;
+        background     : #101010;
+        width          : 100%;
+        padding        : 80px;
+        margin-top     : 70px;
+        flex-direction : row;
+
+        >section {
+            display    : flex;
+            align-items: flex-end;
+            max-width  : 1246px;
+            width      : 100%;
+
+            >.input-container {
+                display       : flex;
+                flex-direction: column;
+                width         : 70%;
+
+                >label {
+                    font-weight: 700;
+                    font-size  : 14px;
+                    line-height: 24px;
+                    color      : #FFF;
+                }
+
+                >input {
+                    background   : #101010;
+                    border-bottom: 3px solid #F3F3F3;
+                    color        : #FFF;
+                    padding      : 14px 20px;
+                }
+            }
+
+            >button {
+                font-family: 'Roboto';
+                font-style : normal;
+                font-weight: 600;
+                font-size  : 16px;
+                line-height: 19px;
+                color      : #131313;
+                background : #F9D833;
+                width      : 100%;
+                padding    : 17px 0px;
+                margin-top : 30px;
+                margin-left: 20px;
+                width      : 30%;
+                height     : 52px;
+            }
+        }
+    }
+}

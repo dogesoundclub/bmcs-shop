@@ -1,0 +1,186 @@
+.home-view {
+
+    >.goods-list {
+        display              : grid;
+        grid-template-columns: repeat(4, 455px);
+        grid-gap             : 20px;
+        padding              : 20px;
+    }
+
+    >.about-container {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        background     : #FFFFFF;
+
+        >h2 {
+            padding-top   : 70px;
+            padding-bottom: 30px;
+            font-weight   : 700;
+            font-size     : 40px;
+            line-height   : 47px;
+            color         : #101010;
+        }
+
+        >p {
+            padding-top   : 30px;
+            padding-bottom: 70px;
+            max-width     : 1246px;
+            font-family   : 'Noto Sans KR';
+            font-style    : normal;
+            font-weight   : 400;
+            font-size     : 16px;
+            line-height   : 24px;
+        }
+    }
+
+    >.wear-container {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+
+        >h2 {
+            padding-top   : 70px;
+            padding-bottom: 30px;
+            font-weight   : 700;
+            font-size     : 40px;
+            line-height   : 47px;
+            color         : #101010;
+        }
+
+        >p {
+            padding-top   : 30px;
+            padding-bottom: 30px;
+            max-width     : 1246px;
+            font-family   : 'Noto Sans KR';
+            font-style    : normal;
+            font-weight   : 400;
+            font-size     : 16px;
+            line-height   : 24px;
+        }
+
+        >.img-list {
+            display              : grid;
+            grid-template-columns: repeat(4, 455px);
+            grid-gap             : 20px;
+            max-width            : 1246px;
+
+            >.img-container {
+                max-width      : 296px;
+                max-height     : 296px;
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+                background     : #FFFFFF;
+                padding        : 38px;
+
+                >img {
+                    width : 220px;
+                    height: 220px;
+                }
+            }
+        }
+    }
+
+    >.contact-container {
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        align-items    : center;
+        background     : #101010;
+        margin-top     : 70px;
+
+        >h2 {
+            padding-top   : 70px;
+            padding-bottom: 50px;
+            font-weight   : 700;
+            font-size     : 40px;
+            line-height   : 47px;
+            color         : #FFFFFF;
+        }
+
+        >form {
+            max-width: 1246px;
+            width    : 100%;
+
+            >.info-container {
+                display: flex;
+                gap    : 40px;
+
+                >.input-container {
+                    width         : 50%;
+                    display       : flex;
+                    flex-direction: column;
+                    margin-top    : 30px;
+
+                    >label {
+                        font-weight: 700;
+                        font-size  : 14px;
+                        line-height: 24px;
+                        color      : #FFF;
+                    }
+
+                    >input {
+                        background   : #101010;
+                        border-bottom: 3px solid #F3F3F3;
+                        color        : #FFF;
+                        padding      : 14px 20px;
+                    }
+                }
+            }
+
+            >.input-container {
+                display       : flex;
+                flex-direction: column;
+                margin-top    : 30px;
+
+                >label {
+                    font-weight: 700;
+                    font-size  : 14px;
+                    line-height: 24px;
+                    color      : #FFF;
+                }
+
+                >input {
+                    background   : #101010;
+                    border-bottom: 3px solid #F3F3F3;
+                    color        : #FFF;
+                    padding      : 14px 20px;
+                }
+            }
+
+            >button {
+                font-family: 'Roboto';
+                font-style : normal;
+                font-weight: 600;
+                font-size  : 16px;
+                line-height: 19px;
+                color      : #131313;
+                background : #F9D833;
+                width      : 100%;
+                padding    : 17px 0px;
+                margin-top : 30px;
+            }
+        }
+
+        >.mailing-form {
+            margin-top    : 80px;
+            margin-bottom : 70px;
+            display       : flex;
+            flex-direction: row;
+            align-items   : flex-end;
+
+            >.input-container {
+                width: 70%;
+            }
+
+            >button {
+                margin-left: 20px;
+                width      : 30%;
+                height     : 52px;
+            }
+        }
+    }
+}

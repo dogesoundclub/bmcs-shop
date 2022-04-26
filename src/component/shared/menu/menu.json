@@ -1,0 +1,12 @@
+{
+    "menu": [
+        {
+            "uri": "governance",
+            "key": "GOVERNANCE_MENU"
+        },
+        {
+            "uri": "staking",
+            "key": "STAKING_MENU"
+        }
+    ]
+}

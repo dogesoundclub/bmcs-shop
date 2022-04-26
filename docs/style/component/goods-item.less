@@ -1,0 +1,58 @@
+.goods-item {
+    >.img-container {
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        background     : #FFFFFF;
+        padding        : 38px;
+        max-width      : 455px;
+        max-height     : 455px;
+
+        >img {
+            width : 320px;
+            height: 380px;
+        }
+    }
+
+    >h6 {
+        margin-top : 12px;
+        font-weight: 400;
+        font-size  : 16px;
+        line-height: 19px;
+    }
+
+    >p {
+        margin-top : 4px;
+        font-weight: 700;
+        font-size  : 16px;
+        line-height: 19px;
+        color      : #101010;
+    }
+
+    >a {
+        display    : none;
+        margin-top : 16px;
+        padding    : 16px 0px;
+        text-align : center;
+        color      : #FFF;
+        background : #101010;
+        font-family: "NeoDunggeunmo";
+    }
+
+    &:hover {
+        border    : 1px solid #101010;
+        box-sizing: border-box;
+
+        >h6 {
+            padding-left: 20px;
+        }
+
+        >p {
+            padding-left: 20px;
+        }
+
+        >a {
+            display: block;
+        }
+    }
+}
