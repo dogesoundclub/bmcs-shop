@@ -1346,4 +1346,115 @@ body {
   width: 30%;
   height: 52px;
 }
+.about-view > section {
+  max-width: 1246px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+  margin: auto;
+}
+.about-view > section > h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #101010;
+  margin-bottom: 30px;
+  text-align: center;
+  justify-content: center;
+}
+.about-view > section > p {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #474747;
+}
+.about-view > .contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #101010;
+  margin-top: 70px;
+}
+.about-view > .contact-container > h2 {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+}
+.about-view > .contact-container > form {
+  max-width: 1246px;
+  width: 100%;
+}
+.about-view > .contact-container > form > .info-container {
+  display: flex;
+  gap: 40px;
+}
+.about-view > .contact-container > form > .info-container > .input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.about-view > .contact-container > form > .info-container > .input-container > label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFF;
+}
+.about-view > .contact-container > form > .info-container > .input-container > input {
+  background: #101010;
+  border-bottom: 3px solid #F3F3F3;
+  color: #FFF;
+  padding: 14px 20px;
+}
+.about-view > .contact-container > form > .input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.about-view > .contact-container > form > .input-container > label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFF;
+}
+.about-view > .contact-container > form > .input-container > input {
+  background: #101010;
+  border-bottom: 3px solid #F3F3F3;
+  color: #FFF;
+  padding: 14px 20px;
+}
+.about-view > .contact-container > form > button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #131313;
+  background: #F9D833;
+  width: 100%;
+  padding: 17px 0px;
+  margin-top: 30px;
+}
+.about-view > .contact-container > .mailing-form {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.about-view > .contact-container > .mailing-form > .input-container {
+  width: 70%;
+}
+.about-view > .contact-container > .mailing-form > button {
+  margin-left: 20px;
+  width: 30%;
+  height: 52px;
+}
 

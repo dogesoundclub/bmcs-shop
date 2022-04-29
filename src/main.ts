@@ -1,6 +1,7 @@
 import { BrowserInfo, msg } from "skydapp-browser";
 import { SkyRouter } from "skydapp-common";
 import superagent from "superagent";
+import About from "./view/About";
 import Contact from "./view/Contact";
 import Faq from "./view/Faq";
 import Home from "./view/Home";
@@ -16,6 +17,7 @@ import MyCart from "./view/MyCart";
     SkyRouter.route("my-cart", MyCart);
     SkyRouter.route("contact", Contact);
     SkyRouter.route("faq", Faq);
+    SkyRouter.route("about", About);
 
     if (sessionStorage.__spa_path) {
         SkyRouter.go(sessionStorage.__spa_path);
