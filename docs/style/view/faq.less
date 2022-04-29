@@ -1,0 +1,86 @@
+.faq-view {
+    >section {
+        max-width      : 1246px;
+        width          : 100%;
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        padding-top    : 70px;
+        margin         : auto;
+
+        >.search-container {
+            position     : relative;
+            width        : 100%;
+            margin-bottom: 30px;
+
+            >input {
+                width     : 100%;
+                background: #FFFFFF;
+                border    : 1px solid #C8C8C8;
+                box-sizing: border-box;
+                padding   : 20px 20px 20px 50px;
+            }
+
+            >img {
+                position: absolute;
+                left    : 20px;
+                top     : 16px;
+                color   : gray;
+            }
+        }
+    }
+
+    >.mailing-form {
+        display        : flex;
+        justify-content: center;
+        align-items    : flex-end;
+        background     : #101010;
+        width          : 100%;
+        padding        : 80px;
+        margin-top     : 70px;
+        flex-direction : row;
+
+        >section {
+            display    : flex;
+            align-items: flex-end;
+            max-width  : 1246px;
+            width      : 100%;
+
+            >.input-container {
+                display       : flex;
+                flex-direction: column;
+                width         : 70%;
+
+                >label {
+                    font-weight: 700;
+                    font-size  : 14px;
+                    line-height: 24px;
+                    color      : #FFF;
+                }
+
+                >input {
+                    background   : #101010;
+                    border-bottom: 3px solid #F3F3F3;
+                    color        : #FFF;
+                    padding      : 14px 20px;
+                }
+            }
+
+            >button {
+                font-family: 'Roboto';
+                font-style : normal;
+                font-weight: 600;
+                font-size  : 16px;
+                line-height: 19px;
+                color      : #131313;
+                background : #F9D833;
+                width      : 100%;
+                padding    : 17px 0px;
+                margin-top : 30px;
+                margin-left: 20px;
+                width      : 30%;
+                height     : 52px;
+            }
+        }
+    }
+}

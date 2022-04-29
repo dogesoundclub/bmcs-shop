@@ -711,6 +711,33 @@ body {
   height: 10px;
   margin-left: 27px;
 }
+.collapsible-item {
+  width: 100%;
+}
+.collapsible-item > section > .collapsible {
+  color: #101010;
+  cursor: pointer;
+  background: #FFFFFF;
+  padding: 26px 20px;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  line-height: 16px;
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+}
+.collapsible-item > section > .active,
+.collapsible-item > section .collapsible:hover {
+  color: #F9D833;
+}
+.collapsible-item > section > .content {
+  padding: 30px 20px;
+  display: none;
+  overflow: hidden;
+  background: #F9D833;
+  border: 1px solid #C8C8C8;
+  box-sizing: border-box;
+}
 .layout > header {
   display: flex;
   flex-direction: column;
@@ -1230,6 +1257,81 @@ body {
   padding: 14px 20px;
 }
 .contact-view > .mailing-form > section > button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #131313;
+  background: #F9D833;
+  width: 100%;
+  padding: 17px 0px;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 30%;
+  height: 52px;
+}
+.faq-view > section {
+  max-width: 1246px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+  margin: auto;
+}
+.faq-view > section > .search-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.faq-view > section > .search-container > input {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #C8C8C8;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 50px;
+}
+.faq-view > section > .search-container > img {
+  position: absolute;
+  left: 20px;
+  top: 16px;
+  color: gray;
+}
+.faq-view > .mailing-form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #101010;
+  width: 100%;
+  padding: 80px;
+  margin-top: 70px;
+  flex-direction: row;
+}
+.faq-view > .mailing-form > section {
+  display: flex;
+  align-items: flex-end;
+  max-width: 1246px;
+  width: 100%;
+}
+.faq-view > .mailing-form > section > .input-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.faq-view > .mailing-form > section > .input-container > label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFF;
+}
+.faq-view > .mailing-form > section > .input-container > input {
+  background: #101010;
+  border-bottom: 3px solid #F3F3F3;
+  color: #FFF;
+  padding: 14px 20px;
+}
+.faq-view > .mailing-form > section > button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;

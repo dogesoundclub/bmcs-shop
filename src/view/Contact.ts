@@ -16,7 +16,7 @@ export default class Contact implements View {
                     el(".info-container",
                         el(".input-container",
                             el("label", "NAME"),
-                            el("input",),
+                            el("input",), ``
                         ),
                         el(".input-container",
                             el("label", "EMAIL"),

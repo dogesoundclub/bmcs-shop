@@ -1,0 +1,32 @@
+.collapsible-item {
+    width: 100%;
+
+    >section {
+        >.collapsible {
+            color        : #101010;
+            cursor       : pointer;
+            background   : #FFFFFF;
+            padding      : 26px 20px;
+            width        : 100%;
+            text-align   : left;
+            font-size    : 16px;
+            line-height  : 16px;
+            border-top   : 1px solid #C8C8C8;
+            border-bottom: 1px solid #C8C8C8;
+        }
+
+        >.active,
+        .collapsible:hover {
+            color: #F9D833;
+        }
+
+        >.content {
+            padding   : 30px 20px;
+            display   : none;
+            overflow  : hidden;
+            background: #F9D833;
+            border    : 1px solid #C8C8C8;
+            box-sizing: border-box;
+        }
+    }
+}
